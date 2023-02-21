@@ -1,9 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
-   div{
-    font-family: 'Kanit', sans-serif;
-    margin-top: auto;
-   }
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap");
+#container {
+  font-family: "Kanit", sans-serif;
+  margin-top: auto;
+  overflow: hidden;
+}
 
-   body{
-    
-   }
+label {
+  float: left;
+  width: 200px;
+  padding-right: 24px;
+}
+
+.subJudul {
+  font-weight: bold;
+}
+
+.style-input {
+  color: #fff;
+  width: 225px;
+  height: 15px;
+  font-size: 18px;
+}
